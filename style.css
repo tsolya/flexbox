@@ -1,0 +1,229 @@
+h1{
+    text-align: center;
+}
+#header{
+    background-color: gray;
+    border:solid 2px black;
+    height:10vh;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+
+}
+#body{
+    
+    display:flex;
+    height: fit-content;
+    
+    
+    
+}
+#nav{
+    background-color:rgb(54, 90, 104);
+    border:solid 2px black;
+    width:25vw;
+    height:70vh;
+    height: auto;
+    
+
+
+}
+#content{
+    background-color: rgb(221, 202, 140);
+    border:solid 2px black;
+    width:75vw;
+    height:70vh;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    height: fit-content;
+   
+    
+
+
+}
+#footer{
+    
+    border:solid 2px black;
+    height: 20vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+#menu{
+    height:40px;
+    width:100px;
+    border:solid 2px black;
+    text-align: center;
+    background-color: aliceblue;
+    margin:20px;
+    padding:1px;
+}
+.ize{
+margin-top:40px;
+
+
+}
+.termekek{
+    
+    background-color: rgb(252, 252, 252);
+    justify-content: space-around;
+    border:solid 2px black;
+    width:250px;
+   
+    flex-direction: row;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 150;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+img{
+    width:250px;
+    height:130px;  
+    border-radius: 15px;
+    
+}
+p{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+#spar{
+    height:100px;
+}
+
+@media only screen and (min-width:999px) 
+{
+    #body{
+    
+        display:flex;
+    }
+    #content{
+        
+        border:solid 2px black;
+        width:75vw;
+        height:70vh;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+    }
+    #nav{
+        
+        border:solid 2px black;
+        width:25vw;
+        height:70vh;
+        height: auto;
+        
+    }    
+}
+@media only screen and (min-width:999px) 
+{
+    #body{
+        display:flex;
+        height: 70vw;
+    }
+    #content{
+        
+        width:75vw;
+        height:70vh;
+        height: auto;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+    }
+    #nav{
+        width:25vw;
+        height:70vh;
+        height: auto;
+        
+    }    
+}
+@media only screen and (max-width:400px) 
+        {
+            #header{
+                
+                flex-direction: column;
+                background-color: gray;
+                border:solid 2px black;
+                height:30vh;
+                width: 92vw;
+                display:flex;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+            }
+            #body{
+                flex-direction: column;
+                display:flex;
+                
+                
+                
+            }
+            #nav{
+                
+                border:solid 2px black;
+                width:92vw;
+                height:30vh;
+                
+            
+            
+            }
+            #content{
+                
+                border:solid 2px black;
+                width:92vw;
+                
+                height: fit-content;
+                justify-content: space-between;
+                flex-wrap:wrap;
+                
+            }
+            
+            
+            
+            #menu{
+                
+                width:80vw;
+                border:solid 2px black;
+                text-align: center;
+                background-color: aliceblue;
+                margin:20px;
+                padding:1px;
+            }
+            .termekek{
+                
+                border:solid 2px black;
+                width:250px;
+                height: 250px;
+                flex-direction: column;
+                flex-wrap: wrap;
+                margin-left: 50px;
+                margin-right: 30px;
+                
+            }
+            #footer{
+    
+                border:solid 2px black;
+                height:fit-content;
+                
+                width: 92vw;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content:space-between;
+                
+                flex-direction: column;
+                text-align: center;
+            }
+            img{
+                width:250px;
+                height:200px;  
+                
+            }
+            
+    }
